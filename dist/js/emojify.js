@@ -216,7 +216,7 @@
                     /* Has a whitespace after? */
                     if(hasWhitespaceAfter && hasEmojiBefore) { return success(); }
 
-                    return;
+                    return success();
                 }
             };
 
